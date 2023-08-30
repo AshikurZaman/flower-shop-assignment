@@ -1,0 +1,35 @@
+font-family: 'Open Sans', sans-serif;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*header part*/
+
+.banner-container{
+    border: none;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn-primary{
+    color: white;
+    background-color: crimson;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-image{
+    width: 300px;
+}
