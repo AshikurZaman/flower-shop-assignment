@@ -38,6 +38,53 @@ font-family: 'Open Sans', sans-serif;
 .banner-image{
     width: 300px;
 }
+/*main part*/
+
+/*bonus part*/
+
+
+.bonus-container{
+    border: none;
+    height: 100vh;
+    margin: 30px 150px;
+}
+.bonus-item{
+    text-align: center;
+    margin: 20px;
+}
+
+.bonus-box-container{
+    display: flex;
+    justify-content:space-around;
+   
+    
+    
+}
+.bonus-boxer{
+    text-align: center;
+    
+    
+}
+.bonus-box{
+    height: 350px;
+    width: 250px;
+    border: none;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    margin-bottom: 10px;
+    background-color: rgb(230, 215, 215);
+    
+}
+.bonus-box-img{
+    height: 300px;
+    width: 200px;
+}
+.tree{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
 
 
 /*feature part*/
@@ -71,6 +118,9 @@ font-family: 'Open Sans', sans-serif;
     width: 300px;
 }
 
+
+/*instagram part*/
+
 .ins-container{
     border: none;
     height: 100vh;
@@ -79,8 +129,11 @@ font-family: 'Open Sans', sans-serif;
 .box{
     height: 350px;
     width: 250px;
-    border: 1px solid gray;
+    border: 3px solid white;
   
+}
+.box:hover{
+    border: 3px solid aqua;
 }
 .box-container{
     display: flex;
